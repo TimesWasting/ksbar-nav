@@ -1,0 +1,813 @@
+@charset "UTF-8" !important;
+/* CSS Document */
+
+/* @group Followers Counter */
+
+.followersCounter {
+ clear: both !important;
+ //border: dotted green !important;
+ display: scroll !important;
+ position: fixed !important;
+ z-index: 5000000 !important;
+ top:50% !important;
+ right:-125px !important;
+ width: 190px !important;
+ height: 75px !important;
+ margin-top: -205px !important;
+ transition:all .5s !important;
+-moz-transition:all .5s !important; /* Firefox 4 */
+-webkit-transition:all .5s !important; /* Safari and Chrome */
+-o-transition:all .5s !important; /* Opera */
+}
+
+.followersCounter:hover {
+ right:-7px !important;
+}
+
+.followersCounter span {
+ position: absolute !important;
+ top: -999em !important;
+}
+
+/* @end */
+
+
+.colorTest {color:#3C0 !important;
+}
+
+.rightColumn {
+  float:right !important;
+  border: 1px solid #E3DFD7 !important;
+  border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  margin-bottom: 20px !important;
+  padding: 5px !important;
+  width: 200px !important;
+}
+
+
+
+/* @group Events */
+
+.eventOut{
+  width: 190px !important; 
+  position:relative !important; 
+  left:700px !important; 
+  top:230px !important; 
+  margin: 10px 0 0 0 !important;
+}
+
+.eventSection{
+  width: 190px !important; 
+  position:absolute !important; 
+  background: goldenrod !important; 
+  padding: 10px !important;
+}
+
+.eventAlert{
+  width: 190px !important; 
+  position:absolute !important; 
+  background: red !important; 
+  padding: 10px !important;
+  top: 250px !important;
+}
+
+.eventAccess{
+  width: 190px !important; 
+  position:absolute !important; 
+  background: black !important;
+  padding: 10px !important;
+  color: #ffffff !important;
+  top:120px !important;
+  text-align: justify !important;
+}
+
+/* @end */
+
+/* @group Section Navigation */
+#sectionNav li {
+  //display:  inline !important;
+  background-color:#FFFFFF !important;
+  background-position:100% 0 !important;
+  //float:left !important;  /* my addition */
+}
+#sectionNav ul{
+  list-style: none !important;
+}
+#sectionNav h2 {
+  color:#D9530A !important;
+  font-size:31px !important;
+  margin:10px 15px 0 !important;
+  text-transform:uppercase !important;
+}
+#sectionNav h3 {
+  color:#666666 !important;
+  font-size:24px !important;
+  margin:0 15px 10px !important;
+  text-transform:uppercase !important;
+}
+#sectionNav p {
+  margin:0 15px 5px !important;
+  width:250px !important; 
+}
+#sectionNav div {
+  height:35px !important;
+  margin-left:15px !important;
+  text-align:center !important;
+  width:100% !important; /* 115px !important; */
+}
+
+
+#sectionNav a, #sectionNav a:link, #sectionNav a:visited {
+  //display: inline !important;
+  background-color:transparent !important;
+  background-image:url(http://www.ksbar.org/associations/13344/imgs/sprite-btn-rmb.png) !important;
+  background-position:0 0 !important;
+  background-repeat:no-repeat no-repeat !important;
+  color:#FFFFFF !important;
+  display:block !important;
+  font-family:'Trebuchet MS', Arial, sans-serif !important;
+  font-size:15px !important;
+  font-style:normal !important;
+  font-variant:normal !important;
+  font-weight:bold !important;
+  line-height:35px !important;
+  text-decoration:none !important;
+  //padding-right: 10px !important;
+  width:115px !important;  /* 100% !important; */
+}
+#sectionNav a:hover {
+  background-position:0 100% !important;
+}
+
+
+/* @end */
+
+
+/* @group KSBar Styles */
+#banner li {
+  background-color:#FFFFFF !important;
+  background-position:100% 0 !important;
+}
+#banner h2 {
+  color:#D9530A !important;
+  font-size:31px !important;
+  margin:10px 15px 0 !important;
+  text-transform:uppercase !important;
+}
+#banner h3 {
+  color:#666666 !important;
+  font-size:24px !important;
+  margin:0 15px 10px !important;
+  text-transform:uppercase !important;
+}
+#banner p {
+  margin:0 15px 5px !important;
+  width:250px !important;
+}
+#banner div {
+  height:35px !important;
+  margin-left:15px !important;
+  text-align:center !important;
+  width:115px !important;
+}
+#banner a, #banner a:link, #banner a:visited {
+  background-color:transparent !important;
+  background-image:url(http://www.ksbar.org/associations/13344/imgs/sprite-btn-rmb.png) !important;
+  background-position:0 0 !important;
+  background-repeat:no-repeat no-repeat !important;
+  color:#FFFFFF !important;
+  display:block !important;
+  font-family:'Trebuchet MS', Arial, sans-serif !important;
+  font-size:15px !important;
+  font-style:normal !important;
+  font-variant:normal !important;
+  font-weight:bold !important;
+  line-height:35px !important;
+  text-decoration:none !important;
+  width:100% !important;
+}
+#banner a:hover {
+  background-position:0 100% !important;
+}
+
+
+
+
+/* @end */
+
+/* @group Smart Groups */
+
+.smartGroupH4  {
+	color: rgb(89, 82, 65) !important; 
+	font-weight: bold !important; 
+	font: arial !important; 
+	font-size: 15px !important; 
+	margin: 0px 0px 10px !important;
+}
+
+
+/* @end */
+
+
+/* @group Nav Menu */
+
+/* MENU */
+/* http://net.tutsplus.com/tutorials/design-tutorials/how-to-build-and-enhance-a-3-level-navigation-menu/ */
+#nav {
+     //background: #336699 !important; /* No Background */
+     float: left !important;
+     margin: 0 !important; 
+     padding: 0 !important;
+     border-bottom: none !important;
+     color: white !important;
+    cursor:default !important;
+}
+
+#nav li a, #nav li {
+    float: left !important;
+    list-style: none !important;
+    position: relative !important;
+}
+
+/*
+#nav ul li:hover>a{
+    padding: 1em 1.5em !important;
+    background: none !important;
+    white-space:nowrap !important;
+    background-color:#AEC5C9 !important;
+    border-color:#AEC5C9 !important;
+    border-style:solid !important;
+    color: black !important;
+    text-decoration:none !important;
+    -moz-border-radius-bottomright: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+*/
+
+/* Affects only the main menu links, BEFORE hover */
+#nav li a {
+    padding: 1em 1.5em !important;
+    text-decoration: none !important;
+    color: white !important;
+    border-right: 1px solid #215077 !important;
+    border-left: 1px solid #AEC5C9 !important;
+    border-bottom: 1px solid #336699 !important;
+    border-top: 1px solid #336699 !important;
+    background: #00559D !important; //#336699 !important;
+    background: -moz-linear-gradient(0deg, #00559D 0%, #00559D 65%, #3C7DB4 100%)#3C7DB4  !important; 
+    background: -webkit-gradient(linear, right bottom, right top, from(#00559D), color-stop(0.65, #00559D), to(#3C7DB4)) #00559D !important;
+
+}
+
+/* Affects only the main menu links, ON hover */
+#nav li:hover a {
+    padding: 1em 1.5em !important;
+    text-decoration: none !important;
+    color: white !important;
+    border-right: 1px solid #215077 !important;
+    border-left: 1px solid #AEC5C9 !important;
+    border-bottom: 1px solid #336699 !important;
+    border-top: 1px solid #336699 !important;
+    background: #336699 !important;//#00559D !important;
+}
+
+/* Affects dropdown menu links, BEFORE hover */
+#nav ul li a {
+    align: left !important;
+    //padding: 1em 1.5em !important;
+    display:block !important;
+    background: #336699 !important; //#1542a6 !important;
+    white-space:nowrap !important;
+    min-width: 100px !important;
+    vertical-align:middle !important;
+    border-width:1px !important;
+    border-color:#336699 !important;
+    border-style:solid !important;
+    text-align:center !important;
+    text-decoration:none !important;
+    //padding:2px 5px 5px 10px !important;
+    _padding-left:0 !important;
+    color: #FFFFFF !important;
+    text-decoration:none !important;
+//    cursor:default !important;
+    background: #336699 !important; 
+}
+
+/* Affects ALL dropdown menu links, AFTER hover 
+   (remove > for just the first menu)
+   (remove the a to get some interesting affects) */
+#nav ul li:hover > a {
+    padding: 1em 1.5em !important;
+    background: none !important;
+    position:relative !important;
+    background-color:#AEC5C9 !important;
+    border-color:#AEC5C9 !important;
+    border-style:solid !important;
+    color: black !important;
+    text-decoration:none !important;
+    //-moz-border-radius-bottomright: 10px !important;
+    //border-bottom-right-radius: 10px !important;
+}
+
+/* Not sure what this affects - 2nd tier dropdown hover */
+#nav ul li ul li:hover > a {
+    position: absolute !important;
+     left: 0 !important;
+     top: 100% !important;
+    //padding: 1em 1.5em !important;
+    //border-width:1px  !important; 
+    border-color:  #AEC5C9 !important; //#336699 !important;
+    border-style:solid !important;
+    background: none !important;
+    background-color: #AEC5C9 !important;
+    border-right: 1px solid #3c3c3c!important;
+    border-left: 1px solid #AEC5C9!important;
+    //border-bottom: 1px solid #336699!important;
+
+    color: black !important;
+    text-decoration:none !important;
+
+}
+
+
+/* Submenu */
+
+/* Triangle denoting which have children */
+.hasChildren {
+    position: absolute !important;
+    width:0px !important; 
+    height:0px !important; 
+    border-bottom:5px solid transparent !important;  /* left arrow slant */
+    border-top:5px solid transparent !important; /* right arrow slant */
+    border-left:5px solid #ffffff !important; /* bottom, add background color here */
+    font-size:0px !important;
+    line-height:0px !important;
+    right : 10% !important;
+    bottom: 45% !important;
+}
+/* Triangle denoting which have children - HOVER (currently, just hovering over triangle only) */
+.hasChildren:hover {
+    position: absolute !important;
+    width:0px !important; 
+    height:0px !important; 
+    border-bottom:5px solid transparent !important;  /* left arrow slant */
+    border-top:5px solid transparent !important; /* right arrow slant */
+    border-left:5px solid black !important; /* bottom, add background color here */
+    font-size:0px !important;
+    line-height:0px !important;
+    right : 10% !important;
+    bottom: 45% !important;
+}
+
+#nav li ul {
+ display: none !important;
+ position: absolute !important;
+ left: 0 !important;
+ top: 100% !important;
+ padding: 0 !important; margin: 0 !important;
+}
+
+#nav li:hover > ul {
+ display: block !important;
+}
+
+#nav li ul li, #nav li ul li a {
+ float: none !important;
+}
+
+#nav li ul li {
+ _display: inline !important; /* for IE6 */
+}
+
+#nav li ul li a {
+ //width: 150px !important;
+ display: block !important;
+}
+
+/* SUBSUB Menu */
+
+#nav li ul li ul {
+ display: none !important;
+}
+
+#nav li ul li:hover ul {
+ left: 100% !important;
+ top: 0 !important;
+}
+​/* @end */
+
+
+/* @group pureCssMenu */
+#sectionMenu{
+	padding: 0 !important;
+	margin: 0 !important;
+	color: rgb(255, 255, 255) !important;
+}
+#pcm{display:none !important;}
+ul.pureCssMenu ul{
+	display:none !important; 
+}
+ul.pureCssMenu li:hover>ul{
+	display:block !important;
+}
+ul.pureCssMenu ul{
+	position: absolute !important;
+	left:-1px !important;top:98% !important;
+}
+ul.pureCssMenu ul ul{
+	position: absolute !important;
+	left:98% !important;
+	top:-2px !important;
+}
+ul.pureCssMenu,ul.pureCssMenu ul {
+	margin:0px !important;
+	list-style:none !important;
+	padding:0px 2px 2px 0px !important;
+	background-color:#336699 !important;
+	background-repeat:repeat !important;
+	border-color:#808080 !important;
+	border-width:1px !important;
+	border-style:solid !important;
+}
+ul.pureCssMenu table {
+	border-collapse:collapse !important;
+}
+ul.pureCssMenu {
+	display:block !important;
+	zoom:1 !important;
+	height:21px !important;
+	float: left !important;
+}
+ul.pureCssMenu ul{
+	width:225px !important;
+}
+ul.pureCssMenu li{
+	display:block !important;
+	margin:2px 0px 0px 2px !important;
+	font-size:0px !important;
+}
+ul.pureCssMenu a:active, ul.pureCssMenu a:focus {
+	outline-style:none !important;
+}
+ul.pureCssMenu a, ul.pureCssMenu li.dis a:hover, ul.pureCssMenu li.sep a:hover {
+	display:block !important;
+	vertical-align:middle !important;
+	background-color:#336699 !important;
+	border-width:1px !important;
+	border-color:#336699 !important;
+	border-style:solid !important;
+	text-align:center !important;
+	text-decoration:none !important;
+	padding:2px 5px 5px 10px !important;
+	_padding-left:0 !important;
+	font:11px Arial !important;
+	color: #FFFFFF !important;
+	text-decoration:none !important;
+	cursor:default !important;
+}
+ul.pureCssMenu span{
+	overflow:hidden !important;
+}
+ul.pureCssMenu li {
+	float:left !important;
+}
+ul.pureCssMenu ul li {
+	float:none !important;
+}
+ul.pureCssMenu ul a {
+	text-align:left !important;
+	white-space:nowrap !important;
+}
+ul.pureCssMenu li.sep{
+	text-align:left !important;
+	padding:0px !important;
+	line-height:0 !important;
+	height:100% !important;
+}
+ul.pureCssMenu li.sep span{
+	float:none !important;	
+	padding-right:0 !important;
+	width:3px !important;
+	height:100% !important;
+	display:inline-block !important;
+	background-color:#808080 !important;	
+	background-image:none !important;
+}
+ul.pureCssMenu ul li.sep span{
+	width:100% !important;
+	height:3px !important;
+}
+ul.pureCssMenu li:hover{
+	position:relative !important;
+}
+ul.pureCssMenu li:hover>a{
+	background-color:#AEC5C9 !important;
+	border-color:#AEC5C9 !important;
+	border-style:solid !important;
+	font:11px Arial !important;
+	color: black !important;
+	text-decoration:none !important;
+}
+ul.pureCssMenu li a:hover{
+	position:relative !important;
+	background-color:#AEC5C9 !important;
+	border-color:#AEC5C9 !important;
+	border-style:solid !important;
+	font:11px Arial !important;
+	color: black !important;
+	text-decoration:none !important;
+}
+ul.pureCssMenu li.dis a {
+	color: #557D4F !important;
+}
+ul.pureCssMenu img {border: none !important;
+	float:left !important;
+	_float:none !important;
+	margin-right:2px !important;
+	width:16px !important;
+	height:16px !important;
+}
+ul.pureCssMenu ul img {
+	width:16px !important;
+	height:16px !important;
+}
+ul.pureCssMenu img.over{display:none !important;}
+ul.pureCssMenu li.dis a:hover img.over{display:none !important;}
+ul.pureCssMenu li.dis a:hover img.def {display:inline !important;}
+ul.pureCssMenu li:hover > a img.def  {display:none !important;}
+ul.pureCssMenu li:hover > a img.over {display:inline !important;}
+ul.pureCssMenu a:hover img.over,ul.pureCssMenu a:hover ul img.def,ul.pureCssMenu a:hover a:hover ul img.def,ul.pureCssMenu a:hover a:hover a:hover ul img.def,ul.pureCssMenu a:hover a:hover img.over,ul.pureCssMenu a:hover a:hover a:hover img.over,ul.pureCssMenu a:hover a:hover a:hover a:hover img.over{display:inline !important;}
+ul.pureCssMenu a:hover img.def,ul.pureCssMenu a:hover ul img.over,ul.pureCssMenu a:hover a:hover ul img.over,ul.pureCssMenu a:hover a:hover a:hover ul img.over,ul.pureCssMenu a:hover a:hover img.def,ul.pureCssMenu a:hover a:hover a:hover img.def,ul.pureCssMenu a:hover a:hover a:hover a:hover img.def{display:none !important;}
+ul.pureCssMenu a:hover ul,ul.pureCssMenu a:hover a:hover ul,ul.pureCssMenu a:hover a:hover a:hover ul{
+	display:block !important;
+}
+ul.pureCssMenu a:hover ul ul,ul.pureCssMenu a:hover a:hover ul ul{
+	display:none !important;
+}
+ul.pureCssMenu span{
+	display:block !important;
+	background-image:url(http://ksbar.org/associations/13344/files/arrv_white.gif) !important;
+	background-position:right center !important;
+	background-repeat: no-repeat !important;
+	padding-right:9px !important;}
+ul.pureCssMenu ul span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_white.gif) !important;
+}
+ul.pureCssMenu ul li:hover > a span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_black.gif) !important;
+}
+ul.pureCssMenu table a:hover span,ul.pureCssMenu table a:hover a:hover span,ul.pureCssMenu table a:hover a:hover a:hover span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_black.gif) !important;
+}
+ul.pureCssMenu table a:hover table span,ul.pureCssMenu table a:hover a:hover table span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_white.gif) !important;
+}
+ul.pureCssMenu li.pureCssMenui0 {
+	width:110px !important;
+	height:23px !important;
+}
+ul.pureCssMenu li a.pureCssMenui0{
+	height:100% !important;
+	background-image:url(http://ksbar.org/associations/13344/files/btn3.jpg) !important;
+	border-width:0px !important;
+	font:normal 11px Arial !important;
+	color:#fff !important;
+}
+ul.pureCssMenu li a.pureCssMenui0:hover{
+	background-image:url(http://ksbar.org/associations/13344/files/btn4.jpg) !important;
+	font:normal 11px Arial !important;
+	color:#eee !important;
+}
+ ul.pureCssMenum0 {
+	background-color:transparent !important;
+	border-width:0px !important;
+	padding:0px 0px 0px 0px !important;
+}
+ ul.pureCssMenum0>li>a {
+	padding:8px 10px 0px 10px !important;
+}
+ ul.pureCssMenum0 a {
+	padding:8px 10px 0px 10px !important;
+}
+ ul.pureCssMenum0 ul a {
+	padding:2px 5px 5px 10px !important;
+}
+ ul.pureCssMenum0>li {
+	margin:0px 0px 0px 0px !important;
+}
+ ul.pureCssMenum0 li {
+	margin:0px 0px 0px 0px !important;
+}
+ ul.pureCssMenum0 li li {
+	margin:2px 0px 0px 2px !important;
+}
+/* @end */
+
+
+/* @group pureCssMenu Nav2  */
+#nav2{
+	padding: 0 !important;
+	margin: 0 !important;
+	color: rgb(255, 255, 255) !important;
+}
+ul.nav2 ul{
+	display:none !important;
+}
+ul.nav2 li:hover>ul{
+	display:block !important;
+}
+ul.nav2 ul{
+	position: absolute !important;
+	left:-1px !important;top:98% !important;
+}
+ul.nav2 ul ul{
+	position: absolute !important;
+	left:98% !important;
+	top:-2px !important;
+}
+ul.nav2,ul.nav2 ul {
+	margin:0px !important;
+	list-style:none !important;
+	padding:0px 2px 2px 0px !important;
+	background-color:#336699 !important;
+	background-repeat:repeat !important;
+	border-color:#808080 !important;
+	border-width:1px !important;
+	border-style:solid !important;
+}
+ul.nav2 table {
+	border-collapse:collapse !important;
+}
+ul.nav2 {
+	display:block !important;
+	zoom:1 !important;
+	height:21px !important;
+	float: left !important;
+}
+ul.nav2 ul{
+	width:225px !important;
+}
+ul.nav2 li{
+	display:block !important;
+	margin:2px 0px 0px 2px !important;
+	font-size:0px !important;
+}
+ul.nav2 a:active, ul.nav2 a:focus {
+	outline-style:none !important;
+}
+ul.nav2 a, ul.nav2 li.dis a:hover, ul.nav2 li.sep a:hover {
+	display:block !important;
+	vertical-align:middle !important;
+	background-color:#336699 !important;
+	border-width:1px !important;
+	border-color:#336699 !important;
+	border-style:solid !important;
+	text-align:center !important;
+	text-decoration:none !important;
+	padding:2px 5px 5px 10px !important;
+	_padding-left:0 !important;
+	font:11px Arial !important;
+	color: #FFFFFF !important;
+	text-decoration:none !important;
+	cursor:default !important;
+}
+ul.nav2 span{
+	overflow:hidden !important;
+}
+ul.nav2 li {
+	float:left !important;
+}
+ul.nav2 ul li {
+	float:none !important;
+}
+ul.nav2 ul a {
+	text-align:left !important;
+	white-space:nowrap !important;
+}
+ul.nav2 li.sep{
+	text-align:left !important;
+	padding:0px !important;
+	line-height:0 !important;
+	height:100% !important;
+}
+ul.nav2 li.sep span{
+	float:none !important;	
+	padding-right:0 !important;
+	width:3px !important;
+	height:100% !important;
+	display:inline-block !important;
+	background-color:#808080 !important;	
+	background-image:none !important;
+}
+ul.nav2 ul li.sep span{
+	width:100% !important;
+	height:3px !important;
+}
+ul.nav2 li:hover{
+	position:relative !important;
+}
+ul.nav2 li:hover>a{
+	background-color:#AEC5C9 !important;
+	border-color:#AEC5C9 !important;
+	border-style:solid !important;
+	font:11px Arial !important;
+	color: black !important;
+	text-decoration:none !important;
+}
+ul.nav2 li a:hover{
+	position:relative !important;
+	background-color:#AEC5C9 !important;
+	border-color:#AEC5C9 !important;
+	border-style:solid !important;
+	font:11px Arial !important;
+	color: black !important;
+	text-decoration:none !important;
+}
+ul.nav2 li.dis a {
+	color: #557D4F !important;
+}
+ul.nav2 img {border: none !important;
+	float:left !important;
+	_float:none !important;
+	margin-right:2px !important;
+	width:16px !important;
+	height:16px !important;
+}
+ul.nav2 ul img {
+	width:16px !important;
+	height:16px !important;
+}
+ul.nav2 img.over{display:none !important;}
+ul.nav2 li.dis a:hover img.over{display:none !important;}
+ul.nav2 li.dis a:hover img.def {display:inline !important;}
+ul.nav2 li:hover > a img.def  {display:none !important;}
+ul.nav2 li:hover > a img.over {display:inline !important;}
+ul.nav2 a:hover img.over,ul.nav2 a:hover ul img.def,ul.nav2 a:hover a:hover ul img.def,ul.nav2 a:hover a:hover a:hover ul img.def,ul.nav2 a:hover a:hover img.over,ul.nav2 a:hover a:hover a:hover img.over,ul.nav2 a:hover a:hover a:hover a:hover img.over{display:inline !important;}
+ul.nav2 a:hover img.def,ul.nav2 a:hover ul img.over,ul.nav2 a:hover a:hover ul img.over,ul.nav2 a:hover a:hover a:hover ul img.over,ul.nav2 a:hover a:hover img.def,ul.nav2 a:hover a:hover a:hover img.def,ul.nav2 a:hover a:hover a:hover a:hover img.def{display:none !important;}
+ul.nav2 a:hover ul,ul.nav2 a:hover a:hover ul,ul.nav2 a:hover a:hover a:hover ul{
+	display:block !important;
+}
+ul.nav2 a:hover ul ul,ul.nav2 a:hover a:hover ul ul{
+	display:none !important;
+}
+ul.nav2 span{
+	display:block !important;
+	background-image:url(http://ksbar.org/associations/13344/files/arrv_white.gif) !important;
+	background-position:right center !important;
+	background-repeat: no-repeat !important;
+	padding-right:9px !important;}
+ul.nav2 ul span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_white.gif) !important;
+}
+ul.nav2 ul li:hover > a span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_black.gif) !important;
+}
+ul.nav2 table a:hover span,ul.nav2 table a:hover a:hover span,ul.nav2 table a:hover a:hover a:hover span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_black.gif) !important;
+}
+ul.nav2 table a:hover table span,ul.nav2 table a:hover a:hover table span{
+	background-image:url(http://ksbar.org/associations/13344/files/arr_white.gif) !important;
+}
+ul.nav2 li.nav2i0 {
+	width:110px !important;
+	height:23px !important;
+}
+ul.nav2 li a.nav2i0{
+	height:100% !important;
+	background-image:url(http://ksbar.org/associations/13344/files/btn3.jpg) !important;
+	border-width:0px !important;
+	font:normal 11px Arial !important;
+	color:#fff !important;
+}
+ul.nav2 li a.nav2i0:hover{
+	background-image:url(http://ksbar.org/associations/13344/files/btn4.jpg) !important;
+	font:normal 11px Arial !important;
+	color:#eee !important;
+}
+ ul.nav2m0 {
+	background-color:transparent !important;
+	border-width:0px !important;
+	padding:0px 0px 0px 0px !important;
+}
+ ul.nav2m0>li>a {
+	padding:8px 10px 0px 10px !important;
+}
+ ul.nav2m0 a {
+	padding:8px 10px 0px 10px !important;
+}
+ ul.nav2m0 ul a {
+	padding:2px 5px 5px 10px !important;
+}
+ ul.nav2m0>li {
+	margin:0px 0px 0px 0px !important;
+}
+ ul.nav2m0 li {
+	margin:0px 0px 0px 0px !important;
+}
+ ul.nav2m0 li li {
+	margin:2px 0px 0px 2px !important;
+}
+/* @end */
+
